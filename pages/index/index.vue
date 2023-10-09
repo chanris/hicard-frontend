@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-		
+		<u-button @click="show = true">uViewBUTTON</u-button>
 	</view>
 </template>
 
@@ -12,10 +12,10 @@
 			}
 		},
 		onLoad() {
-
+			console.log('uView version:', uni.$u.config.v)
 		},
 		methods: {
-
+			
 		}
 	}
 </script>
